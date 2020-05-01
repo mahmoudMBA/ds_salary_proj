@@ -8,3 +8,6 @@ Selenium Tutorial for Scraping Glassdoor
  
  https://www.youtube.com/watch?v=GmW4F6MHqqs
  
+Productionize a Machine Learning model with Flask and Heroku Tutorial 
+
+https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
