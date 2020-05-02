@@ -100,3 +100,34 @@
   ![](Images/BarPlot.png)                 ![](Images/BoxPlot.png)
   ![](Images/DescriptionLength.png)       ![](Images/Histogram.png)
   ![](Images/PivotTable.png)              ![](Images/WordCloud.png)
+  
+  
+  
+  ## Model Building
+  
+  First i got rid of the features i wan't going to feed to my model, then transformed my categorical variables to dummy variables and also split the data into train_test sets with a test size of 20%.
+  
+  I tried six different models and evaluated them using MAE. I chose MAE because it's easy to interpret and outliers aren't particulary bad for this type of model.
+  * **Different models i tried:**
+    * **Linear Regression**: baseline for the model.
+    * **Lasso Regression**: because we had a big number of variables after the get dummies we had to regularize our linear model to avoid overfitting.
+    * **Ridge Regression**: another way to regularize our linear model.
+    * **Random Forest Regressor**: because of the sparse data it looked like a good model.
+    * **XGBoost Regressor**: which is similar to random forest but usually faster and gives better results.
+    * **SVM Regressor**: i wanted to try the gaussian kernel(RBF) which gave the best result at the end.
+    
+  ## Model Performance
+  
+  The SVM and Random forest gave the best results at the end
+  * **SVM**: MAE=17.6
+  * **Random Forest**: MAE=17.6
+  * **XGBoost**: MAE=18.6
+  * **Ridge**: MAE=18.6
+  * **Lasso**: MAE=18.7
+  * **Linear**: MAE=2551.4 obviosly the data can't be separated linearly.
+  * **Combination of SVM and Random Forest**: MAE=17.5 slightly better than both models.
+
+
+## Productionization
+In this part i built a flask API endpoint that was hosted in heroku by following along with "Productionize a Machine Learning model with Flask and Heroku Tutorial" and "Ken Jee tutoial for the data science salary project".
+the API endpoint takes in a request with a list of values from a job listing (our features) and returns an estimated salary.
