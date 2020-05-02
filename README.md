@@ -13,14 +13,14 @@
 #### Resorces : 
 
 
-_Selenium Tutorial for Scraping Glassdoor article_:
+ * _Selenium Tutorial for Scraping Glassdoor article_:
 
- https://towardsdatascience.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905
+  https://towardsdatascience.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905
  
- _Ken Jee tutoial for the data science salary project_:
+ * _Ken Jee tutoial for the data science salary project_:
  
  https://www.youtube.com/watch?v=GmW4F6MHqqs
  
-_Productionize a Machine Learning model with Flask and Heroku Tutorial_: 
+ * _Productionize a Machine Learning model with Flask and Heroku Tutorial_: 
 
 https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
