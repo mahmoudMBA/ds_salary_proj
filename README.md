@@ -53,37 +53,37 @@
    
    Followed the "Selenium Tutorial for Scraping Glassdoor article" and "Ken Jee tutoial for the data science salary project" to srape about 2000 job postings from GlassDoor and got these features for each of them:
    
-   * Company Name          
-   * Job Description      
-   * Rating               
-   * Job Title             
-   * Location             
-   * Company Headquarters 
-   * Copany Size          
-   * Company Fouded Date  
-   * Type of Ownership    
-   * Industry             
-   * Sector               
-   * Revenue              
-   * Competitors          
-   * Salary Estimate      
+  * Company Name          
+  * Job Description      
+  * Rating               
+  * Job Title             
+  * Location             
+  * Company Headquarters 
+  * Copany Size          
+  * Company Fouded Date  
+  * Type of Ownership    
+  * Industry             
+  * Sector               
+  * Revenue              
+  * Competitors          
+  * Salary Estimate      
    
    ## Data Cleaning
    
    After scraping the data i had to clean it so i can use it in my model,
    i made the following changes and created the following variables:
    
-   * Parsed numeric data out of salay.
-   * Removed rows without salary.
-   * Parsed ratings out of company name.
-   * Made new columns for company state ,city and coutry.
-   * Added a column to check if the job was at the companies head quarters or not.
-   * Transformed founded date into age of company.
-   * Created Columns job semplified and seniority.
-   * Column for the description length.
-   * Column for the number of competitors.
-   * Parsed company revenue.
-   * Created columns from job description to check the defferent skills needed in a job:
+  * Parsed numeric data out of salay.
+  * Removed rows without salary.
+  * Parsed ratings out of company name.
+  * Made new columns for company state ,city and coutry.
+  * Added a column to check if the job was at the companies head quarters or not.
+  * Transformed founded date into age of company.
+  * Created Columns job semplified and seniority.
+  * Column for the description length.
+  * Column for the number of competitors.
+  * Parsed company revenue.
+  * Created columns from job description to check the defferent skills needed in a job:
     * Python
     * R
     * AWS
