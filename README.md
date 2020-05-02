@@ -95,5 +95,8 @@
    
   ## EDA
   
+  I looked at the destrebution of the data looked for some correlations and checked the value counts of the categorical variables. Below some highlights:
+  
+  
    
    
