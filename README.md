@@ -3,7 +3,13 @@
 ## Code and Resorces used
 
 
-* Code :
+* ### Code :
+
+ * **Python version**:3.7
+
+ * **Packages**: Pandas,Numpy,Matplotlib,Seaborn,Sklearn,Selenium,Flask,Json,Pickle
+
+
 Selenium Tutorial for Scraping Glassdoor
 
  https://towardsdatascience.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905
