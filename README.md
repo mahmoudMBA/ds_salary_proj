@@ -3,7 +3,7 @@
 ## Code and Resorces used
 
 
-### * Code :
+* Code :
 Selenium Tutorial for Scraping Glassdoor
 
  https://towardsdatascience.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905
