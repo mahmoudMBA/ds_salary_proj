@@ -97,6 +97,6 @@
   
   I looked at the destrebution of numerical variables using histograms looked for some correlations and checked the value counts of the categorical variables. Below some highlights:
   
-  ![](Images/BarPlot.png)
-   
-   
+  ![](Images/BarPlot.png)                 ![](Images/BoxPlot.png)
+  ![](Images/DescriptionLength.png)       ![](Images/Histogram.png)
+  ![](Images/PivotTable.png)              ![](Images/WordCloud.png)
