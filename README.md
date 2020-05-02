@@ -2,8 +2,7 @@
 
 ## Code and Resorces used
 
-
-* ### Code :
+*### Code :
 
  * **Python version**:3.7
 
